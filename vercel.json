@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
+      "src": "/deposit/(.*)",
+      "dest": "/bot.py"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/app.py"
+      "dest": "/bot.py"
     }
   ],
   "env": {
